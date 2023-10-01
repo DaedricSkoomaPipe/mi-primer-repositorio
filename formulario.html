@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>gracias</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="gracias.html">
+    <div>
+        <label for="Correo electronico">Correo electronico</label>
+        <input type="text" id="Correo electronico"
+        name="Correo electronico">
+    </div>
+<div>
+    <label for="nombre">nombre</label>
+    <input type="text" id="nombre"
+    name="nombre">
+</div>
+<form action="gracias.html">
+<div>
+    <label for="Apellido">Apellido</label>
+    <input type="text" id="Apellido"
+    name="Apellido">
+</div>
+<div>
+    <p for="Edad">Fecha de nacimiento</p>
+
+    <label for="Dia">Dia</label>
+    <input type="number" id="Dia"
+    name="Dia"
+    min="1" max="31">
+
+    <label for="Mes">Mes</label>
+    <input type="number" id="Mes"
+    name="Mes"
+    min="1" max="12">
+
+    <label for="Año">Año</label>
+    <input type="number" id="Año"
+    name="Año"
+    min="1900" max="2023">
+
+</div>
+<div>
+    <label for="Ciudad">Ciudad</label>
+    <select> nam="ciudad" id="ciudad">
+        <option value="1">Cancun</option>
+        <option value="2">Cancún</option>
+        <option value="3">cancun</option>
+        <option value="4">cancún</option>
+    </select>
+</div>
+<div>
+    <label for="radio">Sexo</label>
+    <form>
+        <input type="radio" name="op1" value="fill.jsp"/>Masculino</input>
+    <form>
+        <input type="radio" name="op1" value="fill.jsp"/>Femenino</input>
+             
+</div>
+<div>
+    <details>
+        <summary>Terminos y condiciones</summary>
+        <p>Al aceptar estos terminos usted permite la recoleccion de sus datos personales, ahogar su correo electronico con notificaciones y que su alma sea consumida por Saturno</p>
+      </details>
+    <label class="container">Acepto los terminos y condiciones
+        <input type="checkbox" unchecked="checked" required>
+        <span class="checkmark"></span>
+      </label>
+</div>
+
+<div>
+   <p><label for="Comentarios">Comenarios:</label></p> 
+    <textarea id="Comentarios" name="Comentarios" rows="4" cols="50">Exelente codigo Carlos, te luciste, exentas exposicion.</textarea>
+</div>
+<div>
+    <value="Registrate">
+    <input type="submit">
+    </value>
+    <value="Borrar">
+    <input type="reset">
+     </value>
+</div>
+</form>
+</body>
+</html>
